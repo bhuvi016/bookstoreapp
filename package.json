@@ -1,11 +1,18 @@
 {
   "name": "bookstoreapp",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "start": "node Backend/index.js",
     "build": "echo \"No frontend build here\""
   },
   "engines": {
     "node": "18.x"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.7.0",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5"
   }
 }
